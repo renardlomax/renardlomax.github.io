@@ -10,4 +10,4 @@ document.onmousemove = (event) => {
     balls[i].style.top = y;
     balls[i].transform = 'translate(-' + x + ',-' + y + ')';
   }
-};
+ };
