@@ -31,9 +31,7 @@ function Run() {
     img.style.left = pos + 'px';
   }
 }
-// TODO: Add a setInterval call to run every 200 milliseconds. Note: in the video, Dr. Williams uses setTimeout, but here we are going to use a slightly different
-//function call of setInterval, so that you can have practice using this function call. This will also have us add a couple of extra arguments, pos (position), which was declared 
-//on line 2, and pageWidth, which is declared on line 4. 
+
 setInterval(Run,200);
 // This function determines the direction of PacMan based on screen edge detection. 
 function checkPageBounds(direction, imgWidth, pos, pageWidth) {
@@ -46,8 +44,6 @@ function checkPageBounds(direction, imgWidth, pos, pageWidth) {
   return direction;
  }
  
-  // TODO: Complete this to reverse direction upon hitting screen edge
-  //
 
 
 
