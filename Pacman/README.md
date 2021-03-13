@@ -4,4 +4,4 @@ This was my first MIT coding project of the class. I was given the task of creat
 ## What I plan on improving
 - I plan on more than one image that moves in the game.
 - Would also like to different pacman images that change color when hit the walls. 
-<img src= "oneeye.png" width='300'/>
+<img src= "PacMan1.png" width='300'/>
