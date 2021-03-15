@@ -3,9 +3,9 @@ This was my first MIT coding project of the class. I was given the task of creat
 ## How to Run
 Clone files
 - Index.html
-- The pacman images
-- The pacman.js
+- The pacmen images
+- The pacmen.js
 ## What I plan on improving
 - I plan on making more than one image that moves in the game.
-- Would also like to different pacman images that change color when hit the walls. 
+- Would also like to different pacmen images that change color when hit the walls. 
 
