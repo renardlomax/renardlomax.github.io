@@ -17,7 +17,7 @@ function setToRandom(scale) {
 // Factory to make a PacMan at a random position with random velocity
 function makePac() {
   // returns an object with random values scaled {x: 33, y: 21}
-  let velocity = setToRandom(10); // {x:?, y:?}
+  let velocity = setToRandom(10); 
   let position = setToRandom(200);
 
   // Add image to div id = game
