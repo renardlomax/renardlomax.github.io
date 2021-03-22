@@ -1,0 +1,159 @@
+      
+body{
+  font-family: Source Sans Pro;
+  background: white;
+  background: linear-gradient(-55deg, #8fdda9 , white,white,#8fdda9  , white);
+  background-size: 400% 500%;
+  animation: Gradient 27s ease infinite ;
+}
+@-webkit-keyframes Gradient {
+
+  0%{
+    background-position: 0% 50%
+  }
+  50% {
+      background-position: 100% 50%
+}
+100% {
+    background-position: 0% 50%
+}
+} 
+div{
+    background-color:;
+      padding: 7.2px;
+      text-align:end; 
+  }
+  h1{
+    border-style: solid; 
+    font-family: 'Courgette', cursive;
+  }
+
+
+.blockquote-footer{
+  color:black;
+  font-weight: bolder;
+}
+
+
+.h{
+    
+  color:black ;
+  font-size: 1.3rem;
+  font-weight: lighter;
+    
+}
+
+
+.nav-item{
+  color: black;
+}
+
+
+.card-footer{
+  text-align: center;
+  color: black;
+}
+
+
+a:visited {
+  color:black;
+  background-color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: red;
+}
+
+
+
+  #ball{
+    color: black;
+  }
+  .home{
+    color: black;
+  }
+  .tabcontent{
+    
+    float: left;
+    outline: black;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 25px;
+    
+    
+    
+  }
+  
+  .container1{
+    font-family: 'Courgette', cursive;
+    border-style:outset
+  }
+  .d-flex flex-row{
+    text-align: center;
+  }
+#bar{
+  text-align: center;
+  height: 49px;
+  width: 200px;
+  top: px ;
+}
+#search{
+  width:80px ;
+  height: 45px;
+}
+#video{
+text-align: center;
+width: 50%;
+margin: 0 auto; 
+}
+.your-centered-div {
+  width: 560px; 
+  height: 315px;
+
+  position: absolute; 
+  top: 0; right: 0; 
+  bottom: 0; left: 0;
+  margin: auto; 
+}
+.writing{
+color: black;
+font-size: large;
+
+
+
+}
+
+.lo{
+list-style: none;
+margin: 10px 30px;
+display: inline-block ;
+font-size: 24px;
+padding: 10px 15px;
+color: black;
+border: 2px solid black;
+border-radius: 50%;
+transition: .5s;
+background-color:;
+}
+.media{
+position: absolute;
+padding-left: 470px;
+text-align: center;
+
+}
+li:hover {
+color:black;
+border: 1px solid black ;
+background-color: #8fdda9;
+}
+      
+  
+    
+     
+        
+      
+       
+    
+      
