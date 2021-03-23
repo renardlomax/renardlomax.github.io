@@ -4,7 +4,11 @@ body{
   background: white;
   background: linear-gradient(-55deg, #8fdda9 , white,white,#8fdda9  , white);
   background-size: 400% 500%;
-  animation: Gradient 27s ease infinite ;
+  animation: Gradient 100s ease infinite ;
+  display:grid;
+  grid-template-columns: 1fr ;
+  grid-template-rows: 7fr;
+
 }
 @-webkit-keyframes Gradient {
 
@@ -19,7 +23,6 @@ body{
 }
 } 
 div{
-    background-color:;
       padding: 7.2px;
       text-align:end; 
   }
@@ -57,10 +60,9 @@ div{
 
 a:visited {
   color:black;
-  background-color: white;
+  background-color:black;
 }
 
-/* mouse over link */
 a:hover {
   color: red;
 }
@@ -88,7 +90,7 @@ a:hover {
   
   .container1{
     font-family: 'Courgette', cursive;
-    border-style:outset
+    border-style:outset;
   }
   .d-flex flex-row{
     text-align: center;
@@ -99,10 +101,7 @@ a:hover {
   width: 200px;
   top: px ;
 }
-#search{
-  width:80px ;
-  height: 45px;
-}
+
 #video{
 text-align: center;
 width: 50%;
@@ -134,26 +133,29 @@ padding: 10px 15px;
 color: black;
 border: 2px solid black;
 border-radius: 50%;
-transition: .5s;
-background-color:;
+transition: 5s;
+
 }
 .media{
 position: absolute;
-padding-left: 470px;
+padding-left: 430px;
 text-align: center;
 
 }
 li:hover {
 color:black;
 border: 1px solid black ;
-background-color: #8fdda9;
+
 }
-      
-  
-    
-     
-        
-      
-       
-    
-      
+.letter{
+  text-shadow: 2px 2px 5px red;
+  text-align: center;
+  list-style: none;
+  margin: 10px 30px;
+  font-size: 17px; 
+  border-radius: 50%;
+  transition: 3s;  
+}
+#let{
+  color: black;
+}
