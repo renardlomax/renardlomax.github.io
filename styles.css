@@ -2,7 +2,7 @@
 body{
 font-family: Source Sans Pro;
 background: white;
-background: linear-gradient(-55deg, #8fdda9 , white,white,#8fdda9  , white);
+
 background-size: 400% 500%;
 animation: Gradient 100s ease infinite ;
 display:grid;
